@@ -1,0 +1,19 @@
+
+/* TEAM */
+
+Name: Andrew Woods
+Role: Developer/Designer
+Twitter: @awoods
+Website: http://andrewwoods.net
+Location: Seattle, WA
+
+
+
+/* SITE */
+
+Date Changed: 2016/09/23
+Date Created: 2016/09/23
+Standards: HTML5, CSS3
+Doctype: HTML5
+Components: Sass, Compass, Handlebars
+Software: WordPress, PHPStorm, Pixelmator, Meetup API

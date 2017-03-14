@@ -1,0 +1,66 @@
+//
+// Module: Forms
+//
+// This is for a single module. You can have multiple modules - just put them.
+// in a separate file
+//
+
+form {
+	border: 1px solid $grey-80;
+	margin: $margin-small;
+	padding: $padding-small;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=number] {
+	width: 80%;
+	margin: $margin-medium auto;
+
+	&:focus {
+		background-color: $form-highlight;
+		color: $black;
+	}
+}
+
+input[type=submit] {
+	padding: $padding-tiny;
+}
+
+textarea {
+	width: 80%;
+	height: 10em;
+	margin: $margin-medium auto;
+}
+
+label {
+	display: block;
+	text-align: left;
+	padding: $padding-tiny 0;
+
+	&.align-right {
+		text-align: right;
+	}
+
+	&.align-center {
+		text-align: center;
+	}
+
+	&.top {
+	}
+}
+
+.field {
+	border-top: 1px solid $grey-70;
+	padding: $padding-medium 0;
+
+	&:first-child {
+		border-top: 0;
+	}
+
+}
+
+
+
+

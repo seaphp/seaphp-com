@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Generating PHP documentation for Seattle PHP"
+echo "--------------------------------------------"
+
+phpdoc --directory "./src/wp-content/plugins/site" \
+       --directory "./src/wp-content/themes/seaphp" \
+       --ignore "./src/wp-content/plugins/site/vendor" \
+       --ignore "./src/wp-content/themes/seaphp/vendor" \
+       --target "./phpdocs"  \
+       --force \
+       --title "Seattle PHP Website"
+
+

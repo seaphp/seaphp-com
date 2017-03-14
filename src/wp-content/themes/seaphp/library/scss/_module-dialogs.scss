@@ -1,0 +1,36 @@
+//
+// Stylesheet: Module Stylesheet
+//
+// This is for a single module. You can have multiple modules - just put them.
+// in a separate file
+//
+// alerts and notices
+%alert {
+	margin: $margin-medium;
+	padding: $margin-small $margin-medium;
+	border: 1px solid;
+}
+
+.alert-help {
+	@extend %alert;
+	border-color: $alert-yellow-border;
+	background: $alert-yellow-bg;
+}
+
+.alert-info {
+	@extend %alert;
+	border-color: $alert-blue-border;
+	background: $alert-blue-bg;
+}
+
+.alert-error {
+	@extend %alert;
+	border-color: $alert-red-border;
+	background: $alert-red-bg;
+}
+
+.alert-success {
+	@extend %alert;
+	border-color: $alert-green-border;
+	background: $alert-green-bg;
+}

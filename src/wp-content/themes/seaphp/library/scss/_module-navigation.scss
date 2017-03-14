@@ -1,0 +1,160 @@
+
+//
+// Skip Nav
+//
+.skip-nav {
+	a {
+		display: block;
+		width: auto;
+		padding: 1em;
+		position: absolute;
+		top: 2em;
+		left: -999em;
+		text-decoration: underline;
+
+
+		&:link,
+		&:visited {
+			background-color: $green-dark;
+			color: $white;
+		}
+
+
+		&:hover, &:active, &:focus {
+			left: 2em;
+		}
+	}
+}
+
+//
+// all navs have a .nav class applied via
+// the wp_menu function; this is so we can
+// easily write one group of styles for
+// the navs on the site so our css is cleaner
+// and more scalable.
+//
+
+.main-menu {
+	border-bottom: 0;
+	font-family: $sans-serif-alt;
+	// text-transform: uppercase;
+  	width: 180px;
+
+	li {
+		display: block;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		padding: $padding-medium;
+		background-color: $purple-dark;
+		color: $white;
+		font-weight: normal;
+
+		//
+		// remember this is for mobile ONLY, so there's no need
+		// to even declare hover styles here, you can do it in
+		// the style.scss file where it's relevant. We want to
+		// keep this file as small as possible!
+		//
+		&:hover, &:focus {
+			background-color: $purple;
+			color: $white;
+		}
+	}
+
+	li:last-child a {
+		background: linear-gradient(-45deg, transparent 16px, $purple-dark 0) bottom right;
+		&:hover, &:focus {
+			background-color: $purple;
+			background: linear-gradient(-45deg, transparent 16px, $purple 0) bottom right;
+			color: $white;
+		}
+	}
+
+	// highlight current page
+	li.current-menu-item,
+	li.current_page_item,
+	li.current-page-ancestor {
+
+		a {
+			color: $purple-dark;
+			background-color: $blue-light;
+			//
+			// remember this is for mobile ONLY, so there's no need
+			// to even declare hover styles here, you can do it in
+			// the style.scss file where it's relevant. We want to
+			// keep this file as small as possible!
+			//
+			&:hover, &:focus {
+				background-color: $purple;
+				color: $white;
+
+			}
+		}
+		&:last-child {
+
+			a {
+				color: $purple-dark;
+				background-color: $blue-light;
+				background: linear-gradient(-45deg, transparent 16px, $blue-light 0) bottom right;
+				font-weight: bold;
+				//
+				// remember this is for mobile ONLY, so there's no need
+				// to even declare hover styles here, you can do it in
+				// the style.scss file where it's relevant. We want to
+				// keep this file as small as possible!
+				//
+				&:hover, &:focus {
+					background-color: $purple;
+					background: linear-gradient(-45deg, transparent 16px, $purple-dark 0) bottom right;
+					color: $white;
+
+				}
+			}
+		}
+
+	}  // end current highlighters
+
+} // end .nav
+
+
+.social {
+	border-bottom: 0;
+	margin-top: 0;
+	margin-left: $margin-small;
+
+	a {
+		display: inline-block;
+		@media (min-width: 700px) {
+			display: block;
+		}
+			   
+		text-decoration: none;
+		padding: $padding-tiny;
+
+		//
+		// remember this is for mobile ONLY, so there's no need
+		// to even declare hover styles here, you can do it in
+		// the style.scss file where it's relevant. We want to
+		// keep this file as small as possible!
+		//
+		&:hover, &:focus {
+			background-color: $purple;
+			color: $white;
+		}
+	}
+} // end .social
+
+#menu-toggle {
+	position: absolute;
+	top: $margin-huge;
+	right: 20px;
+	display: inline-block;
+	background-color: $purple-dark;
+	color: $white;
+	padding: $padding-small;
+}
+
+

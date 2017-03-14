@@ -1,0 +1,20 @@
+{
+    "name": "seaphp/seaphp-wp-theme",
+    "description": "The 'Seattle PHP' WordPress Theme",
+    "version": "0.5.1",
+    "type": "project",
+    "time": "2017-02-13",
+    "support": {
+        "issues": "https://github.com/seaphp/seaphp-wp-theme/issues"
+    },
+    "require": {
+        "xamin/handlebars.php": "0.10.*"
+    },
+    "authors": [
+        {
+            "name": "Andrew Woods",
+            "homepage": "http://andrewwoods.net",
+            "role": "Developer / Designer"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+#
+# Common wp-content directories
+#
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/themes/seaphp/
+
+
+#
+# Common wordpress files to ignore
+#
+wp-config.php
+wp-content/debug.log
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-cli.yml
+wp-content/plugins/theme-check/
+
+
+#
+# Ignore common PHP directories
+#
+phpdocs/
+vendor/
+
+#
+# Ignore common PHP files
+#
+phpinfo.php
+x.php
+
+
+#
+# Ignore VIM/Editor/IDE Directories
+#
+.settings/
+.externalToolBuilders/
+.idea/
+nbproject/
+
+
+#
+# Ignore VIM/Editor/IDE files
+#
+*.launch
+*.pydevproject
+*~.nib
+.*.swp
+.buildpath
+.classpath
+.cproject
+.loadpath
+.metadata
+.project
+local.properties
+
+
+#
+# Ignore packaged files
+#
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tgz
+*.zip
+
+
+#
+# ignore log files
+#
+*.log
+
+
+# ignore OS X specific files
+*.dmg
+*.DS_store
+.DS_store?
+.Trashes
+
+#
+# Ignore sass-cache files.
+#
+*.sass-cache*
+*.css.map
+
+
+#
+# Misc Directories
+#
+.svn/
+bin/
+temp/
+tmp/
+
+
+#
+# Misc Files
+#
+*.[Cc]ache
+*.bak
+*.cpr
+*.orig
+*.php.in
+*.tmp
+._*
+temp.txt
+
+

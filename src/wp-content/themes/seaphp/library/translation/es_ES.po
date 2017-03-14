@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme seaphp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-28 23:31-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Andrew Woods <a-anwood@microsoft.com>\n"
+"Language-Team: seaphp <atwoods1@gmail.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Epic 404 - Article Not Found"
+msgstr "Épico 404 - Artículo no encontrado"
+
+#: 404.php:11
+msgid ""
+"The content you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: archive.php:11
+msgid "Posts Categorized:"
+msgstr "Archivos de categoría:"
+
+#: archive.php:15
+msgid "Posts Tagged:"
+msgstr "Entradas etiquetadas:"
+
+#: archive.php:22
+msgid "Posts By:"
+msgstr "Entradas de:"
+
+#: archive.php:25
+msgid "Daily Archives:"
+msgstr "Archivo dirario:"
+
+#: archive.php:29
+msgid "Monthly Archives:"
+msgstr "Archivo mensual:"
+
+#: archive.php:33
+msgid "Yearly Archives:"
+msgstr "Archivo anual:"
+
+#: archive.php:45
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"Publicado <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> por  "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> archivado en "
+"%4$s."
+
+#: archive.php:68 index.php:16 search.php:19
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entradas más antiguas"
+
+#: archive.php:69 index.php:17 search.php:20
+msgid "Newer Entries &raquo;"
+msgstr "Entradas más modernas &raquo;"
+
+#: archive.php:78 content/notfound.php:3
+msgid "Oops, Post Not Found!"
+msgstr "Oops, Post No Encontrado!"
+
+#: archive.php:81 index.php:26
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Ou! Algo anda mal. Intenta con el doble control."
+
+#: archive.php:84
+msgid "This is the error message in the archive.php template."
+msgstr "Este es el mensaje de error en la plantilla archive.php."
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Esta entrada está protegida. Para verla, escribe la contraseña:"
+
+#: comments.php:22
+msgid "<span>No</span> Responses"
+msgstr "<span>Sin</span> Responses"
+
+#: comments.php:22
+msgid "<span>One</span> Response"
+msgstr "<span>una</span> respuesta"
+
+#: comments.php:22
+msgid "<span>%</span> Response"
+msgstr "<span>%</span> Respuesta"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:58
+msgid "Leave a Reply"
+msgstr "Deja un comentario"
+
+#: comments.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Responder a %s"
+
+#: comments.php:66
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Debe %1$s iniciar sesión %2$s para escribir un comentario."
+
+#: comments.php:74
+msgid "Logged in as"
+msgstr "Identificado como"
+
+#: comments.php:74
+msgid "Log out of this account"
+msgstr "Salir de esta cuenta"
+
+#: comments.php:74
+msgid "Log out"
+msgstr "Salir"
+
+#: comments.php:74
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: comments.php:81
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:81 comments.php:86
+msgid "(required)"
+msgstr "(requerido)"
+
+#: comments.php:82
+msgid "Your Name*"
+msgstr "Tu nombre*"
+
+#: comments.php:86
+msgid "Mail"
+msgstr "Correo electrónico"
+
+#: comments.php:87
+msgid "Your E-Mail*"
+msgstr "Su Correo Electrónico*"
+
+#: comments.php:88
+msgid "(will not be published)"
+msgstr "(no será publicado)"
+
+#: comments.php:92
+msgid "Website"
+msgstr "Sitio web"
+
+#: comments.php:93
+msgid "Got a website?"
+msgstr "¿Tiene un sitio web?"
+
+#: comments.php:100
+msgid "Your Comment here..."
+msgstr "Tu comentario aquí..."
+
+#: comments.php:102
+msgid "Submit"
+msgstr "Publicar"
+
+#: comments.php:107
+msgid "You can use these tags"
+msgstr "Puedes usar estas etiquetas"
+
+#: content/article-content.php:15
+#, php-format
+msgid ""
+"<span class=\"author p-author\">%1$s</span>\n"
+"\t\t\t\t<span class=\"amp\">&</span> filed under %2$s."
+msgstr ""
+
+#: content/article-content.php:30 content/post-content.php:38
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: content/excerpt.php:10 content/post-content.php:11
+#, php-format
+msgid "by %1$s"
+msgstr "por %1$s"
+
+#: content/post-content.php:18
+#, php-format
+msgid "<time class=\"dt-published\" datetime=\"%1$s\">%2$s</time>"
+msgstr "<time class=\"dt-published\" datetime=\"%1$s\">%2$s</time>"
+
+#: functions.php:83
+msgid "600px by 150px"
+msgstr "600px por 150px"
+
+#: functions.php:84
+msgid "300px by 100px"
+msgstr "300px por 100px"
+
+#: functions.php:109
+msgid "Main Sidebar"
+msgstr "Barra Lateral Principal"
+
+#: functions.php:110
+msgid "The sidebar that appears on most pages"
+msgstr "La barra lateral que aparece en la mayoría de las páginas"
+
+#: functions.php:119
+msgid "Home Sidebar"
+msgstr "Barra lateral de inicio"
+
+#: functions.php:120
+msgid "Used on homepage to show information."
+msgstr "Utilizado en la Página principal para mostrar la información."
+
+#: functions.php:164
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:165
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: functions.php:166
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: functions.php:170
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación"
+
+#: functions.php:197
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#: library/admin/admin.php:82
+#, php-format
+msgid "Developed by <a href=\"%1$s\" target=\"_blank\">%2$s</a>"
+msgstr "Desarrollado por <a href=\"%1$s\" target=\"_blank\">%2$s</a>"
+
+#: library/admin/dashboard-widgets.php:66
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr ""
+
+#: library/admin/dashboard-widgets.php:108
+msgid "j F Y @ g:i a"
+msgstr "Y F j @ g:i a"
+
+#: library/classes/class-seaphp-customizer.php:43
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: library/classes/class-seaphp-customizer.php:63
+msgid "Seattle PHP Options"
+msgstr "Opciones de PHP de Seattle"
+
+#: library/classes/class-seaphp-customizer.php:66
+msgid "Customize settings for SeaPHP."
+msgstr "Personalizar la configuración de SeaPHP."
+
+#: library/classes/class-seaphp-customizer.php:87
+msgid "Link Color"
+msgstr "Color de enlace"
+
+#: library/seaphp.php:291 library/seaphp.php:319
+msgid "The Main Menu"
+msgstr "Menú Principal"
+
+#: library/seaphp.php:292 library/seaphp.php:348
+msgid "Social Media Menu"
+msgstr "Menú Redes sociales"
+
+#: library/seaphp.php:293 library/seaphp.php:377
+msgid "Footer Links"
+msgstr "Enlaces en pie de página"
+
+#: library/seaphp.php:457
+msgid "No Related Posts Yet!"
+msgstr "No hay post relacionados"
+
+#. translators: 1: URL 2: Title of the Post
+#: library/seaphp.php:541
+#, php-format
+msgid ""
+"<a class=\"excerpt-read-more\" href=\"%1$s\">Read more <span class=\"screen-"
+"reader-text\">%2$s</span></a>"
+msgstr ""
+"<a class=\"excerpt-read-more\" href=\"%1$s\">Leer más<span class=\"screen-"
+"reader-text\">%2$s</span></a>"
+
+#: search.php:6
+msgid "Search Results for:"
+msgstr "Resultados de búsqueda de:"
+
+#: search.php:29
+msgid "Sorry, No Results."
+msgstr "!Lo sentimos, no hay resultados!"
+
+#: search.php:32
+msgid "Try your search again."
+msgstr "Por favor intenta buscar otra vez."
+
+#: search.php:35
+msgid "This is the error message in the search.php template."
+msgstr "Este es un mensaje de error en la plantilla search.php."
+
+#: sidebar-home.php:13 sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr "Por favor active algunos widgets."
+
+#~ msgid "Response"
+#~ msgstr "Respuesta"
+
+#~ msgid "Responses"
+#~ msgstr "Respuestas"
+
+#~ msgid "One"
+#~ msgstr "Uno"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "to"
+#~ msgstr "para"
+
+#~ msgid "You must be"
+#~ msgstr "Debes"
+
+#~ msgid "logged in"
+#~ msgstr "iniciar sesión"
+
+#~ msgid "to post a comment"
+#~ msgstr "para escribir un comentario."
+
+#~ msgid "Your Name"
+#~ msgstr "Tu nombre"
+
+#~ msgid "Email"
+#~ msgstr "Correo electrónico"
+
+#~ msgid "Your Email"
+#~ msgstr "Tu correo electrónico"
+
+#~ msgid "will not be published"
+#~ msgstr "no será publicado"
+
+#~ msgid "Your Website"
+#~ msgstr "Tu sitio web"
+
+#~ msgid "Your Comment Here..."
+#~ msgstr "Tu comentario aquí"
+
+#~ msgid "Submit Comment"
+#~ msgstr "Enviar comentario"
+
+#~ msgid "Page %s"
+#~ msgstr "Página %s"
+
+#~ msgid "Posted"
+#~ msgstr "Publicado"
+
+#~ msgid "by"
+#~ msgstr "por"
+
+#~ msgid "filed under"
+#~ msgstr "archivadas en"
+
+#~ msgid "Read more"
+#~ msgstr "Leer más"
+
+#~ msgid "Search the Site..."
+#~ msgstr "Buscar en el sitio..."
+
+#~ msgid ""
+#~ "The article you were looking for was not found, but maybe try looking "
+#~ "again!"
+#~ msgstr ""
+#~ "¡El artículo que estás buscando no ha sido encontrado, pero puedes "
+#~ "intentarlo más adelante!"
+
+#~ msgid "Read more on"
+#~ msgstr "Leer más en"
+
+#~ msgid "Custom Tags"
+#~ msgstr "Etiquetas personalizadas"
+
+#~ msgid "Tag"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Tags"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Read the rest of this entry"
+#~ msgstr "Leer el resto de esta entrada"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Lo sentimos, ningún anexo coincide con tu criterio."
+
+#~ msgid "is powered by"
+#~ msgstr "funciona gracias a"
+
+#~ msgid "Not Found"
+#~ msgstr "No encontrado"
+
+#~ msgid "Sorry, but the requested resource was not found on this site."
+#~ msgstr ""
+#~ "Lo sentimos pero el recurso solicitado no se encuentra disponible en este "
+#~ "sitio."
+
+#~ msgid "Read more &raquo;"
+#~ msgstr "Leer más &raquo;"
+
+#~ msgid "Custom Types"
+#~ msgstr "Tipos personalizados"
+
+#~ msgid "Custom Post"
+#~ msgstr "Entrada personalizada"
+
+#~ msgid "Add New"
+#~ msgstr "Añadir nuevo"
+
+#~ msgid "Add New Custom Type"
+#~ msgstr "Añadir nuevo tipo personalizado"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Edit Post Types"
+#~ msgstr "Editar typo de entrada"
+
+#~ msgid "New Post Type"
+#~ msgstr "Nuevo tipo de entrada"
+
+#~ msgid "View Post Type"
+#~ msgstr "Ver tipo de entrada"
+
+#~ msgid "Search Post Type"
+#~ msgstr "Buscar tipo de entrada"
+
+#~ msgid "Nothing found in the Database."
+#~ msgstr "Nada encontrado en la base de datos."
+
+#~ msgid "Nothing found in Trash"
+#~ msgstr "Nada encontrado en la papelera de reciclaje"
+
+#~ msgid "This is the example custom post type"
+#~ msgstr "Este es un ejemplo de typo de entrada personalizada"
+
+#~ msgid "Custom Categories"
+#~ msgstr "Catergorías personalizadas"
+
+#~ msgid "Custom Category"
+#~ msgstr "Categoría personalizada"
+
+#~ msgid "Search Custom Categories"
+#~ msgstr "Buscar en categorías personalizadas"
+
+#~ msgid "All Custom Categories"
+#~ msgstr "Todas las categorias personalizadas"
+
+#~ msgid "Parent Custom Category"
+#~ msgstr "Categoría personalizada padre"
+
+#~ msgid "Parent Custom Category:"
+#~ msgstr "Categoría personalizada padre:"
+
+#~ msgid "Edit Custom Category"
+#~ msgstr "Editar categoría personalizada"
+
+#~ msgid "Update Custom Category"
+#~ msgstr "Actualizar categoría personalizada"
+
+#~ msgid "Add New Custom Category"
+#~ msgstr "Añadir nueva categoría personalizada"
+
+#~ msgid "New Custom Category Name"
+#~ msgstr "Nuevo nombre de categoría personalizada"
+
+#~ msgid "Custom Tag"
+#~ msgstr "Etiqueta personalizada"
+
+#~ msgid "Search Custom Tags"
+#~ msgstr "Buscar entiqueta personalizada"
+
+#~ msgid "All Custom Tags"
+#~ msgstr "Todas las etiquetas personalizadas"
+
+#~ msgid "Parent Custom Tag"
+#~ msgstr "Etiqueta personalizada padre"
+
+#~ msgid "Parent Custom Tag:"
+#~ msgstr "Etiqueta personalizada padre"
+
+#~ msgid "Edit Custom Tag"
+#~ msgstr "Editar etiqueta personalizada"
+
+#~ msgid "Update Custom Tag"
+#~ msgstr "Actualizar etiqueta personalizada"
+
+#~ msgid "Add New Custom Tag"
+#~ msgstr "Añadir nueva etiqueta personalizada"
+
+#~ msgid "New Custom Tag Name"
+#~ msgstr "Nuevo nombre de etiqueta personalizada"

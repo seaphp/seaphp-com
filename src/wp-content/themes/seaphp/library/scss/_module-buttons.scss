@@ -1,0 +1,29 @@
+//
+// Stylesheet: Button Module
+//
+//------------------------------------------------------------------------------
+
+
+button, button:visited, .btn, .btn:visited {
+	border: 1px solid $grey-60;
+	background-color: $grey-80;
+	color: black;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 21px;
+	margin-bottom: 20px;
+	padding: $padding-tiny $padding-medium;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		background-color: $link-main-bgcolor;
+		color: $link-main-color;
+	}
+
+	&:active {
+		background-color: $link-active-bgcolor;
+		color: $link-active-color;
+	}
+}

@@ -1,0 +1,32 @@
+//
+// Stylesheet: State
+//
+// This is for managing various states of your content.
+//
+
+
+.is-visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+
+.is-hidden, .hidden {
+	display: none;
+}
+
+
+.is-off-screen, .screen-reader-text {
+	position:absolute;
+	margin-left:-10000px;
+	overflow:hidden;
+}
+
+
+

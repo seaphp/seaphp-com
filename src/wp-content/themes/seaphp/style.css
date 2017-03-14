@@ -1,0 +1,20 @@
+/*
+Theme Name: Seattle PHP
+Theme URI: http://seaphp.com/wp-content/themes/seaphp
+Description: The official WordPress theme for Seattle PHP User Group.
+Author: Andrew Woods
+Author URI: http://andrewwoods.net/
+Version: 0.1.0
+Tags:  translation-ready, left-sidebar, accessibility-ready, custom-menu, featured-images, blog
+Text Domain: seaphp-theme
+Domain Path: /library/translation/
+
+License: GPL v3
+License URI: License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+--------------------------------------------------------------------------------
+
+This file is just for compliance with WordPress. The styles loaded by the theme
+are in library/css/style.css and driven by Sass
+
+*/

@@ -1,0 +1,120 @@
+
+//------------------------------------------------------------------------------
+//      SPACING
+//------------------------------------------------------------------------------
+$spacing-tiny: 0.25rem;
+$spacing-small: 0.5rem;
+$spacing-medium: 1rem;
+$spacing-large: 2rem;
+$spacing-huge: 3rem;
+
+$margin-tiny:   $spacing-tiny;
+$margin-small:  $spacing-small;
+$margin-medium: $spacing-medium;
+$margin-large:  $spacing-large;
+$margin-huge:   $spacing-huge;
+
+$padding-tiny:   $spacing-tiny;
+$padding-small:  $spacing-small;
+$padding-medium: $spacing-medium;
+$padding-large:  $spacing-large;
+
+
+
+
+//------------------------------------------------------------------------------
+//      COLORS
+//------------------------------------------------------------------------------
+// Need help w/ choosing your colors? Try this site out:
+// http://0to255.com/
+//
+
+$alert-yellow-bg:      #fcf999;
+$alert-yellow-border:  #f2d520;
+$alert-red-bg:         #f4979b;
+$alert-red-border:     #b41a20;
+$alert-green-bg:       #9ef1a0;
+$alert-green-border:   #1ab420;
+$alert-blue-bg:        #00b2ff;
+$alert-blue-border:    #1a20b4;
+
+$black: #1a1a1a;
+$white: #f7f7f7;
+
+$gray-90: #e5e5e5;
+$grey-90: $gray-90;
+$gray-80: #cccccc;
+$grey-80: $gray-80;
+$gray-70: #b2b2b2;
+$grey-70: $gray-70;
+$gray-60: #999999;
+$grey-60: $gray-60;
+$gray-50: #7f7f7f;
+$grey-50: $gray-50;
+$gray-40: #666666;
+$grey-40: $gray-40;
+$gray-30: #4c4c4c;
+$grey-30: $gray-30;
+$gray-20: #333333;
+$grey-20: $gray-20;
+$gray-10: #191919;
+$grey-10: $gray-10;
+
+//
+// Brand Colors
+//
+
+$purple: #4F5B93;
+$purple-light: #8892BF;
+$purple-dark: #414163;
+$purple-dark-alpha: rgba(65, 65, 99, .8);
+$purple-dark-very: #1a1d2f;
+$blue: #396097;
+$blue-light: #90C9ED;
+$blue-dark: #1E4C75;
+$blue-dark-alpha: rgb(30, 76, 117);
+$green: #65A255;
+$green-light: #C7E4BC;
+$green-dark: #306C43;
+$gray: $gray-50;
+$gray-light: $gray-80;
+$gray-dark: $gray-20;
+
+
+//------------------------------------------------------------------------------
+//      FONTS
+//------------------------------------------------------------------------------
+
+// "Eurostile",
+$sans-serif:  "Avenir Next", "Trebuchet MS", Arial, sans-serif;
+$sans-serif-alt:  "Eurostile", "Avenir Next", "Trebuchet MS", Arial, sans-serif;
+$serif: "Georgia", Cambria, Times New Roman, Times, serif;
+$monospace: "Input Mono", "Hack", Consolas, monospace;
+
+
+//------------------------------------------------------------------------------
+//      LEGEND
+//------------------------------------------------------------------------------
+
+$main-bg-color: darken($purple, 30%);
+$main-text-color: $white;
+$main-text-font: $sans-serif;
+$main-text-size: 18px;
+$main-line-height: 1.7;
+
+
+$link-main-color: $green-light;
+$link-main-bgcolor: transparent;
+
+$link-visited-color: lighten($blue-light, 15%);
+$link-visited-bgcolor: transparent;
+
+$link-hover-color:  $white;
+$link-hover-bgcolor:  $green;
+
+$link-active-color:  $white;
+$link-active-bgcolor:  $green;
+
+$form-highlight: $grey-90;
+
+

@@ -1,0 +1,253 @@
+//------------------------------------------------------------------------------
+//
+// Stylesheet: Base Mobile Stylesheet
+//
+// Be light and don't over style since everything here will be
+// loaded by mobile devices. You want to keep it as minimal as
+// possible. This is called at the top of the main stylsheet
+// and will be used across all viewports.
+//
+//------------------------------------------------------------------------------
+
+*, *:before, *:after  {
+	@include box-sizing();
+}
+
+//
+// GENERAL STYLES
+//------------------------------------------------------------------------------
+body {
+	font-family: $sans-serif;
+	font-size: $main-text-size;
+	font-variant: regular medium;
+	line-height: $main-line-height;
+	background-color: $main-bg-color;
+	color: $main-text-color;
+}
+
+
+//
+// LINK STYLES
+//------------------------------------------------------------------------------
+a {
+	color: $link-main-color;
+	background-color: inherit;
+
+	// mobile tap color
+	&:link {
+		//
+		// this highlights links on iPhones/iPads.
+		// so it basically works like the :hover selector
+		// for mobile devices.
+		//
+		-webkit-tap-highlight-color : $link-main-bgcolor;
+		color: $link-main-color;
+	}
+
+	// show where you've been
+	&:visited {
+		color: $link-visited-color;
+	}
+
+	// on hover
+	&:hover, &:focus {
+		color: $link-hover-color;
+		background-color: $link-hover-bgcolor;
+	}
+
+	// on click
+	&:active {
+		color: $link-active-color;
+		background-color: $link-active-bgcolor;
+		font-weight: bold;
+	}
+
+}
+
+a[href$=".pdf"]:after {
+	content: " (PDF)";
+}
+
+a[href$=".doc"]:after {
+	content: " (DOC)";
+}
+
+a[href$=".xls"]:after {
+	content: " (XLS)";
+}
+
+a[href$=".pdf"][data-size]:after {
+	content: " (PDF, " attr(data-size) ")";
+}
+
+a[href$=".doc"][data-size]:after {
+	content: " (DOC, " attr(data-size) ")";
+}
+
+a[href$=".xls"][data-size]:after {
+	content: " (XLS, " attr(data-size) ")";
+}
+
+
+//
+// H1, H2, H3, H4, H5 STYLES
+//------------------------------------------------------------------------------
+
+
+
+
+h1, h2, h3, h4, h5 {
+	font-family: $sans-serif-alt;
+	text-rendering: optimizelegibility;
+	font-weight: 500;
+	//
+	// if you are going to use webfonts, be sure to check your weights
+	// http://css-tricks.com/watch-your-font-weight/
+	//
+
+	// removing text decoration from all headline links
+	a {
+		text-decoration: none;
+	}
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 2.5em;
+	line-height: 1.333em;
+}
+
+h2 {
+	font-size: 1.75em;
+	line-height: 1.4em;
+	margin-bottom: 0.375em;
+}
+
+h3 {
+	font-size: 1.125em;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+h5 {
+	font-size: 0.846em;
+	line-height: 2.09em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+//
+// HEADER STYLES
+//------------------------------------------------------------------------------
+
+.header {}
+
+#logo {}
+
+
+//
+// POSTS & CONTENT STYLES
+//------------------------------------------------------------------------------
+
+.wp-caption {
+	max-width: 100%;
+	background: #eee;
+	padding: 5px;
+
+	// images inside wp-caption
+	img {
+		max-width: 100%;
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+	p.wp-caption-text {
+		font-size: 0.85em;
+		margin: 4px 0 7px;
+		text-align: center;
+	}
+
+}
+
+// image gallery styles
+.gallery {
+
+	dl {
+
+		a {}
+
+		img {}
+
+	}
+
+	dt {}
+
+	dd {}
+
+}
+
+// gallery caption styles
+.gallery-caption {}
+
+.size-full {}
+.size-large {}
+.size-medium {}
+.size-thumbnail {}
+
+//
+// SIDEBARS & ASIDES
+//------------------------------------------------------------------------------
+
+
+.sidebar {}
+
+.widgettitle {}
+
+.widget {
+
+	ul {}
+
+	li {
+
+		&:first-child {}
+
+		&:last-child {}
+
+		// deep nesting
+		ul {}
+	}
+
+	a {}
+}
+
+//
+// FOOTER STYLES
+//------------------------------------------------------------------------------
+
+.footer {
+	clear: both;
+}
+
+//
+// if you checked out the link above:
+// http://www.alistapart.com/articles/organizing-mobile/
+// you'll want to style the footer nav
+// a bit more in-depth. Remember to keep
+// it simple because you'll have to
+// override these styles for the desktop
+// view.
+//
+.footer-links {
+
+	ul {}
+
+	li {}
+
+}
+
+
+.copyright {}
+

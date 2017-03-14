@@ -1,0 +1,269 @@
+//
+// Stylesheet: Theme
+//
+// This is responsible for large page areas, and layout.
+//
+
+.page-header {
+	background-color: $white;
+	position: relative;
+	@media (min-width: 700px) {
+		width: 180px;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	span {
+		color: $gray-40;
+		font-family: $sans-serif-alt;
+	}
+}
+
+.dt-start {
+	display: inline-block;
+	width: 60px;
+	background-color: $green-dark;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	vertical-align: top;
+
+	.month {
+		display: block;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+	.day {
+		font-size: 24px;
+	}
+}
+.event-content {
+	display: inline-block;
+	width: 58%;
+}
+
+@media (max-width: 700px) {
+	.meetup-event-widget {
+		padding: 1em;
+	}
+}
+
+.widget h4 {
+	display: none;
+}
+
+.p-id {
+	display: inline-block;
+}
+.p-name {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.h-event {
+	margin-bottom: $margin-medium;
+}
+
+.h-entry {
+	margin-bottom: $margin-large;
+}
+
+.social {
+	text-decoration: none;
+	display: block;
+
+	&:hover {
+		background-color: transparent;
+	}
+}
+#logo {
+	width: 100px;
+	display: inline-block;
+	margin-left: $margin-large;
+}
+
+#main {
+	padding: 0;
+
+	@media (min-width: 700px) {
+		padding: 0 $padding-medium;
+	}
+}
+
+#main-content {
+	background: $blue-dark;
+	background: linear-gradient(135deg, transparent 16px, $blue-dark 0 ) top left,
+		        linear-gradient( 45deg, transparent 16px, $blue-dark 0 ) bottom left;
+	background-size: 100% 51%;
+	background-repeat: no-repeat;
+	color: $white;
+	margin: 0 auto $margin-small;
+	padding: $padding-small $padding-medium;
+
+	.h-entry {
+		line-height: 1.75;
+		font-size: 1.2rem;
+	}
+}
+
+.supplemental-content {
+	background-color: darken($blue-dark, 10%);
+	background: linear-gradient( 135deg, transparent 16px, darken($blue-dark, 10%) 0) top left,
+		        linear-gradient(  45deg, transparent 16px, darken($blue-dark, 10%) 0) bottom left;
+	background-size: 100% 51%;
+	background-repeat: no-repeat;
+	color: $white;
+	margin: $margin-large auto;
+	padding: $padding-medium $padding-medium;
+
+	.h-entry {
+		line-height: 1.75;
+		font-size: 1.2rem;
+	}
+}
+#footer {
+	background-color: $purple-dark;
+	margin-top: $margin-huge;
+
+	.copyright {
+		text-align: center;
+	}
+
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+
+#top-nav .main-menu {
+	display: none;
+}
+
+#foot-nav .main-menu {
+		display: block;
+}
+
+
+
+@media (min-width: 700px) {
+
+	#container {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: row;
+	}
+
+	.page-content {
+		vertical-align: top;
+		flex: 1;
+
+	}
+
+	#top-nav {
+		vertical-align: top;
+
+		.main-menu {
+			margin-top: 0;
+			display: inline-block;
+
+		}
+
+	}
+
+	#foot-nav .main-menu {
+		display: none;
+	}
+
+	#home-sidebar, #main-sidebar {
+		width: 18em;
+		margin-right: 1em;
+	}
+
+
+}
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	@media (min-width: 700px) {
+		width: 29em;
+	}
+	@media (min-width: 825px) {
+		width: 35em;
+	}
+	@media (min-width: 950px) {
+		width: 40em;
+	}
+
+}
+
+
+.tile {
+	width: 160px;
+	height: 160px;
+	padding: $padding-small;
+	border: 1px solid $grey-90;
+}
+
+.purple {
+	background-color: $purple;
+}
+
+.purple-light {
+	background-color: $purple-light;
+	color: $gray-dark;
+}
+
+.purple-dark {
+	background-color: $purple-dark;
+}
+
+.blue {
+	background-color: $blue;
+}
+
+.blue-light {
+	background-color: $blue-light;
+	color: $gray-dark;
+}
+
+.blue-dark {
+	background-color: $blue-dark;
+}
+
+.green {
+	background-color: $green;
+}
+
+.green-light {
+	background-color: $green-light;
+	color: $gray-dark;
+}
+
+.green-dark {
+	background-color: $green-dark;
+}
+
+.gray {
+	background-color: $gray;
+}
+
+.gray-light {
+	background-color: $gray-light;
+	color: $gray-dark;
+}
+
+.gray-dark {
+	background-color: $gray-dark;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+

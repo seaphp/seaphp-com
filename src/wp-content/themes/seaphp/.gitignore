@@ -1,0 +1,20 @@
+# folders and files to be ignored by git
+
+
+
+############
+## Packages
+############
+
+
+
+
+############
+## OSes
+############
+
+[Tt]humbs.db
+[Dd]esktop.ini
+
+
+
